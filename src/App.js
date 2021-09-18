@@ -58,10 +58,10 @@ class App extends React.Component {
           <div className="main">
             <div className="container">
               <div className="row">
-                <div className="col-6 title-container">
+                {/* <div className="col-6 title-container">
                   <Titles />
-                </div>
-                <div className="col-6 form-container">
+                </div> */}
+                <div className="col-12 form-container">
                   <Form getWeather={this.getWeather}/>
                   <Weather
                   temperature={this.state.temperature}

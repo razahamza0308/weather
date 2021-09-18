@@ -3,11 +3,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
 body {
-  font-family: "Open Sans", serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .wrapper {
-  background: linear-gradient(to right, #4d463f, #b15e55);
+  background-image: url(https://www.geo.tv/assets/uploads/updates/2021-07-13/359808_420348_updates.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: linear-gradient(to right, #4d463f, #b15e55); */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -16,7 +20,6 @@ body {
 
 .main {
   height: 90vh;
-  background: #fff;
   box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
   width: auto;
   max-width: 80%;
@@ -24,7 +27,7 @@ body {
 }
 
 .title-container {
-  height: 90vh;
+  height: 100vh;
   background: url("img/1.jpg") center center no-repeat;
   background-size: cover;
   display: flex;
@@ -50,16 +53,17 @@ body {
 }
 
 .form-container {
-  background-color: #2c3e50;
+  border-radius: 10px 10px;
+  background-color: #06549cb2;
   height: 90vh;
   padding-top: 100px;
   padding-left: 50px;
 }
 
-input[type="text"] {
+input {
   background-color: transparent;
   border: 0;
-  border-bottom: solid 1px #51f1e4;
+  border-bottom: solid 1px #fff;
   width: 30%;
   padding-bottom: 4px;
   color: #fff !important;
@@ -88,7 +92,7 @@ button {
   letter-spacing: 1px;
   font-size: 15px;
   cursor: pointer;
-  background-color: #51f1e4;
+  background-color: #1d726b;
   color: #000;
   font-weight: 100;
 }
@@ -106,7 +110,7 @@ button:active {
 
 .weather__key {
   color: #f16051;
-  border-bottom: solid 2px rgba(255,255,255,0.06);
+  border-bottom: solid 2px rgba(190, 161, 161, 0.746);
   padding: 20px 0 20px 0;
   font-weight: 400;
 }
@@ -116,7 +120,7 @@ button:active {
 }
 
 .weather__value {
-  color: #fff;
+  color: rgba(216, 185, 185, 0.924);
   font-weight: 200;
 }
 
